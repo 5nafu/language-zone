@@ -1,0 +1,14 @@
+{
+  "name": "language-bind",
+  "version": "0.0.1",
+  "description": "An Atom package for editing Bind configuration and zone files.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/5nafu/language-bind",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

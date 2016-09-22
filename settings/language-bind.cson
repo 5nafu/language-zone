@@ -1,0 +1,6 @@
+'.text.zone':
+  'editor':
+    'commentStart': '; '
+'.text.bindconfig':
+  'editor':
+    'commentStart': '// '

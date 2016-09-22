@@ -1,0 +1,11 @@
+'.source.zone':
+  'SOA Record':
+    'prefix': 'SOA'
+    'body': """
+        @         IN  SOA  ${1:primary.name.server}. ${2:email.address}. (
+                           ${3:serial}  ; serial
+                           ${4:refresh} ; refresh (time to recheck the zone from primary)
+                           ${5:retry}   ; retry (retry on nonreachable primary)
+                           ${6:expire}  ; expire (invalidating on sec NS)
+                           ${7:negTTL}) ; TTL (negative caching on Client)
+    """
